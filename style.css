@@ -1,12 +1,15 @@
 body {
     width: 100%;
-    margin: 100px;
-    margin-left: 100px;
-    background-color: rgb(128, 67, 128);
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(80, 33, 74);
+    font-family: Arial, Helvetica, sans-serif;
  }
   
  #profile-container{
     max-width: 300px;
+    margin: 80px auto;
     background-color: rgb(180, 125, 182);
     border: 4px solid rgb(209, 174, 203);
     border-radius: 6px;
@@ -24,15 +27,17 @@ body {
     width: 100%;
     height: 50px;
     line-height: 50px;
-    background-color: burlywood;
+    background-color: rgb(189, 145, 174);
     text-align: center;
     color: white;
  }
  #footer {
     width: 100%;
     height: 50px;
+    position: absolute;
+    bottom: 0;
     line-height: 50px;
-    background-color: burlywood;
+    background-color: rgb(189, 145, 174);
     text-align: center;
     color: white;
  }
